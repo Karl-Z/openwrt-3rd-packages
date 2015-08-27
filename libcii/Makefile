@@ -29,7 +29,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/libcii
   SECTION:=libs
   CATEGORY:=Libraries
-  TITLE:=Basic C library
+  TITLE:=Library from C Interfaces and Implementations
   URL:=https://github.com/kev009/cii
 endef
 

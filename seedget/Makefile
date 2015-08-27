@@ -28,7 +28,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/seedget
   SECTION:=net
-  CATEGORY:=util
+  CATEGORY:=Utilities
   TITLE:=Seed download tool
   URL:=https://gitlab.com/Karl.Z/c-projects
   DEPENDS:=+libmrss +libcurl +libcii +zlib

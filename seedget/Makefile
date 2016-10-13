@@ -18,7 +18,7 @@ PKG_RELEASE:=1
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://gitlab.com/Karl.Z/c-projects.git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
-PKG_SOURCE_VERSION:=4b9631eea95da108
+PKG_SOURCE_VERSION:=21f24ab1
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.gz
 
 # call 'make install'
@@ -28,7 +28,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/seedget
   SECTION:=net
-  CATEGORY:=Utilities
+  CATEGORY:=Network
   TITLE:=Seed download tool
   URL:=https://gitlab.com/Karl.Z/c-projects
   DEPENDS:=+libmrss +libcurl +libcii +zlib

@@ -1,0 +1,14 @@
+--- guile-1.8.8/configure.orig	2016-10-13 05:48:31.915348270 -0400
++++ guile-1.8.8/configure	2016-10-13 05:55:29.507687278 -0400
+@@ -19877,10 +19877,7 @@
+ old_CFLAGS="$CFLAGS"
+ CFLAGS="$PTHREAD_CFLAGS $CFLAGS"
+ if test "$cross_compiling" = yes; then :
+-  { { $as_echo "$as_me:${as_lineno-$LINENO}: error: in \`$ac_pwd':" >&5
+-$as_echo "$as_me: error: in \`$ac_pwd':" >&2;}
+-as_fn_error $? "cannot run test program while cross compiling
+-See \`config.log' for more details" "$LINENO" 5; }
++  work=yes
+ else
+   cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+ /* end confdefs.h.  */
